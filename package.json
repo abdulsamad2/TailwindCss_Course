@@ -1,7 +1,7 @@
 {
-  "name": "Course",
+  "name": "course",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this course, we are going to learn all about tailwind css framework. Tailwind is one of the fastest growing and promising CSS Frameworks at the moment. It is different from other frameworks, such as Bootstrap and foundation, because it is built on a new way of building user interfaces using a utility-first CSS classes structure.",
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i src/styles.css -o public/output.css -w"
@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^2.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashyap2013/TailwindCss_Course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akashyap2013/TailwindCss_Course/issues"
+  },
+  "homepage": "https://github.com/akashyap2013/TailwindCss_Course#readme"
 }
